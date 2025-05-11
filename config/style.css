@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overscroll-behavior: none;
+}
+.mobile-frame {
+  width: 390px;
+  height: 844px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 2rem auto;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}

@@ -1,0 +1,251 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+  
+
+  box-sizing: border-box;
+  -ms-overflow-style: none;  IE and Edge; 
+  scrollbar-width: none; Firefox;
+}
+::-webkit-scrollbar {
+  display: none;Chrome; Safari and Opera 
+
+} 
+
+:root {
+  --grey: #f4f5fb;
+  --white: #ffffff;
+  --blueText: #061457;
+  --blueButton: #084fff;
+} 
+
+body {
+  /* font-family: 'Segoe UI', sans-serif; */
+  /* background-color: #f8fafc; */
+  color: var(--blueText);
+  height: 100%;
+  background-color: var(--grey);
+}
+
+header {
+  background-color: #f4f5fb;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#main {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 24px;
+  padding-top: 150px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 20px;
+  color: var(--blueText);
+  text-wrap: nowrap;
+  font-weight: 600;
+}
+
+/* ---------------------HEADER-------------------------------- */
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  margin-top: 5%;
+  position: fixed; 
+  width: 100%;
+  top: 0%;
+}
+#barRechercheIcone {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  justify-content: center;
+  input {
+    width: 70%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    background-color: #dfe1e7;
+  }
+  margin-bottom: 5%;
+}
+
+#iconRecherche {
+  background-color: var(--blueText);
+  padding: 2%;
+  border-radius: 100%;
+}
+
+/* -----------------------------MAIN---------------------------- */
+
+#h1 {
+  display: flex;
+  text-wrap: nowrap;
+  /* nowrap:texte image sur la même ligne */
+
+  gap: 10%;
+  margin-bottom: 10%;
+  img {
+    width: 15%;
+    object-fit: cover;
+  }
+}
+.serviceCoeur {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+/* -------------------------------CARD ACCUEIL------------------------------- */
+.card {
+  display: flex;
+  background: white;
+  border: 1px;
+  box-shadow: 0px 4px 4px 4px rgba(81, 80, 80, 0.25);
+  width: 100%;
+  height: 104px;
+}
+.card > img {
+  height: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.divCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  width: 100%;
+}
+.divButton {
+  display: flex;
+  gap: 2%;
+}
+
+.button {
+  width: fit-content;
+  font-size: 10px;
+  text-wrap: nowrap;
+  padding: 8px 16px;
+}
+
+.blue {
+  background-color: var(--blueText);
+  border: var(--blueText);
+  color: var(--grey);
+}
+
+.white {
+  background-color: var(--grey);
+  border: var(--blueText) 1px solid;
+  color: var(--blueText);
+}
+
+/* ------------------------------NAV----------------------------- */
+nav{
+  background-color: var(--white);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  aspect-ratio: 0;
+  position: fixed;
+  bottom: 0%;
+}
+
+.figCap{
+ align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card:hover {
+  transform: scale(1.02);
+}
+
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory;
+}
+
+
+
+
+.scroll-card {
+  flex: 0 0 auto;
+  max-width: 80%;
+  min-width: 200px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  scroll-snap-align: start;
+}
+.scroll-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.scroll-card p {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.4;
+} */
